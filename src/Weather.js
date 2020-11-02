@@ -23,7 +23,7 @@ export default function Weather(props){
             <h3>3 HOURS FORECAST:</h3>
         <div className="forecast-frame">
           <div className="row">
-            <div column="5">
+            <div className="column-5">
             <Forecast />
             <Forecast />
             <Forecast />
