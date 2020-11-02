@@ -7,8 +7,10 @@ import Footer from "./Footer";
 function App() {
   return (
     <div className="App">
+      <div className="border-frame">
       <Weather city="Zürich"/>
       < Footer />
+      </div>
       </div>
     
   );
