@@ -1,7 +1,7 @@
 import React from "react";
 //import axios from "axios";
 
-export default function Weather(){
+export default function Weather(props){
     
     
     
@@ -25,6 +25,10 @@ export default function Weather(){
             <input type="submit"
             value="search" />
             </form>
+            <ul>
+                <li className="city-heading">{props.city}</li>
+         <li>    Monday,16:31  </li>
+            </ul>
             </div>
 
     );
