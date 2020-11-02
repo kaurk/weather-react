@@ -10,7 +10,7 @@ export default function Weather(props){
             <input 
             className="city-input"
             type="text"
-            placeholder="type a city name...."
+            placeholder="Type a city...."
             />
             <input type="submit"
             value="search" />
@@ -23,11 +23,13 @@ export default function Weather(props){
             <h3>3 HOURS FORECAST:</h3>
         <div className="forecast-frame">
           <div className="row">
+            <div column="5">
             <Forecast />
             <Forecast />
             <Forecast />
             <Forecast />
             <Forecast />
+          </div>
           </div>
           </div>
             </div>
