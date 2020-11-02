@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./index.css";
 import Forecast from "./Forecast";
 
 export default function Weather(props){
